@@ -1,0 +1,71 @@
+
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    font-family:'Red Hat Display' sans-serif ;
+}
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1440px;
+    box-sizing: border-box;
+    
+}
+
+
+.hero{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    
+}
+
+.white-space{
+    background-color: white;
+    
+    /* border-collapse: collapse;
+     */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    width: 450px;
+    padding-top: 30px;
+}
+.h1{
+    font-weight: 900;
+    color : hsl(223, 47%, 23%);
+    
+}
+
+.p{
+    text-align: center;
+    color: hsl(223, 47%, 63%);
+     padding-top: 10px;
+     line-height: 1.5em;
+     font-size: 16px;
+}
+
+
+.annual-plan{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color: hsla(0, 6%, 87%, 0.952);
+
+}
+.blue-box{
+    color: white;
+}
+

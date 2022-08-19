@@ -1,0 +1,174 @@
+
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    font-family:'Red Hat Display' sans-serif ;
+    max-width:100% ;
+}
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    /* max-width:100%; */
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+.hero{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+    
+}
+
+.white-space{
+    background-color: white;
+    
+    /* border-collapse: collapse;
+     */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    width: 450px;
+    padding-top: 30px;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+.h1{
+    font-weight: 900;
+    color : hsl(223, 47%, 23%);
+    
+}
+
+.p{
+    text-align: center;
+    color: hsl(223, 47%, 63%);
+     padding-top: 10px;
+     line-height: 1.5em;
+     font-size: 16px;
+}
+
+
+.whole-box{
+    /* padding-top: 20px; */
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    width: 60%;
+    height: 80px;
+    flex-grow: 1;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+
+#music-icon{
+
+    align-self: center;
+padding-left: 10px;
+
+padding-right: 15px;
+
+
+}
+
+#annual-plan{
+  align-self: center;
+  line-height: 1.5em;
+  color:hsl(223, 47%, 23%); 
+  padding-right: 30px;
+  
+
+}
+#top-annual-plan{
+    font-weight: 900 ;
+}
+#bottom-annual-plan{
+   color:  hsl(223, 47%, 63%);
+   font-weight: 900;
+}
+
+#change{
+    align-self: center;
+    padding-left: 20px;
+   
+    font-weight: 900;
+    font-size: 15px;
+    
+    
+}
+  #chang:hover{
+   color:hsl(245, 75%, 72%); 
+  
+  }
+   #chang{
+   text-decoration: none;
+    color: hsl(245, 75%, 52%);
+   }
+
+     .blue-box{
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: hsl(245, 75%, 52%);
+        border: 1px solid hsl(245, 75%, 52%);
+        width: 60%;
+        height: 40px;
+        padding: 10px;
+       text-align: center;
+       color: white;
+       text-decoration: none;
+       margin-bottom: 30px;
+       
+     }
+
+
+      #p{
+        text-decoration: none;
+        color: white;
+
+      }
+
+      .blue-box:hover{
+        background-color:hsl(245, 75%, 72%); 
+        border: 1px solid hsl(245, 75%, 72%);
+      }
+      
+
+      .cancel-order{
+        color:hsl(223, 47%, 23%);
+        font-size: 20px;
+        margin-bottom: 30px;
+        font-weight: 700;
+      }
+
+      .cancel-order:hover{
+        color:hsl(223, 47%, 53%);
+        cursor: pointer;
+      }
+
+      @media (max-width:468px)  {
+        .container{
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        max-width: 100%;
+
+        }
+      }
